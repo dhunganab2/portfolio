@@ -20,13 +20,12 @@ const About = () => {
             <p>
             Hi, I'm Bijay Dhungana! Originally from Nepal, I now live in the Greater Cincinnati area. I'm currently pursuing a bachelor's degree in Computer Science 
             with a minor in Computer Information Technology and Mathematics at Northern Kentucky University. I'm passionate about building smooth, user-friendly websites
-             and apps.I love solving problems through technology.I'm particularly interested in computational methods and how they enhance the 
+             and apps. I love solving problems through technology. I'm particularly interested in computational methods and how they enhance the 
              efficiency and intelligence of computer systems.
             </p>
             <p>
-              Beside this,I am huge Fan of Hiphop .Currently my favourite artists are Kanye West,Travis Scott and Playboi Carti.I also
-              love exploring new places and trying new food.
-            
+              Besides this, I am a huge fan of Hip-hop. Currently my favorite artists are Kanye West, Travis Scott, and Playboi Carti. I also
+              love exploring new places and trying new cuisine.
             </p>
             <div className="skills-container">
               <h4>Technical Skills</h4>
@@ -36,8 +35,7 @@ const About = () => {
                 <span className="skill-tag">Java</span>
                 <span className="skill-tag">JavaScript</span>
                 <span className="skill-tag">React</span>
-                <span className="skill-tag">mySQL</span>
-                
+                <span className="skill-tag">MySQL</span>
               </div>
             </div>
           </div>
