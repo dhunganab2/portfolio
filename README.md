@@ -1,3 +1,33 @@
+# Bijay Dhungana's Portfolio
+
+This repository contains the source code for my personal portfolio website.
+
+## About This Project
+
+This is a modern portfolio website built with React that showcases my skills, projects, and experience as a Full Stack Developer.
+
+## Features
+
+- Responsive design that works on all devices
+- Aesthetic minimalistic mocha color scheme
+- Contact form with email functionality
+- Project showcase section
+- About me section with skills
+
+## Visit My Portfolio
+
+You can visit my live portfolio at: [https://dhunganab2.github.io/portfolio](https://dhunganab2.github.io/portfolio)
+
+## Connect With Me
+
+- Email: dhunganabijay85@gmail.com
+- LinkedIn: [https://www.linkedin.com/in/bijaydhungana07/](https://www.linkedin.com/in/bijaydhungana07/)
+- GitHub: [https://github.com/dhunganab2](https://github.com/dhunganab2)
+
+---
+
+*Note: This README.md is only visible on the GitHub repository page. The actual website is served from the compiled files in the gh-pages branch.*
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
