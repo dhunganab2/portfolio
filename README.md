@@ -6,7 +6,8 @@ A modern, responsive personal portfolio website for Bijay Dhungana, inspired by 
 
 - Responsive design that works on desktop, tablet, and mobile devices
 - Clean and modern UI with smooth animations
-- Sections for projects, skills, education, and contact information
+- Travis Scott-inspired mocha color theme
+- Sections for About Me, Projects, Skills, Education, and Contact information
 - Semantic HTML5 structure with CSS3 styling
 - Interactive elements with JavaScript
 
@@ -14,7 +15,7 @@ A modern, responsive personal portfolio website for Bijay Dhungana, inspired by 
 
 The website includes the following sections:
 
-1. **Header** - Includes profile information, buttons to connect and follow, and social links
+1. **About Me** - Personal information and interests
 2. **Projects** - Showcases academic and personal projects
 3. **Skills** - Displays technical skills with an interactive grid
 4. **Education** - Shows academic background and achievements
@@ -46,22 +47,22 @@ You can easily customize this portfolio by:
 
 ## Color Scheme
 
-The website uses a clean, modern color scheme with CSS variables that can be easily modified in the `styles.css` file:
+The website uses a Travis Scott-inspired mocha color scheme with CSS variables that can be easily modified in the `styles.css` file:
 
 ```css
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #4b5563;
-    --background-color: #f9fafb;
+    --primary-color: #6F4E37; /* Mocha brown */
+    --secondary-color: #3C2A21; /* Dark brown */
+    --background-color: #FFF8E1; /* Light cream */
     --card-background: #ffffff;
-    --text-color: #1f2937;
-    --text-light: #6b7280;
-    --border-color: #e5e7eb;
-    --success-color: #10b981;
-    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --text-color: #2C1D14; /* Deep brown */
+    --text-light: #725B4D; /* Medium brown */
+    --border-color: #D4C3A9; /* Beige */
+    --success-color: #4E6C50; /* Muted green */
+    --shadow: 0 4px 6px -1px rgba(60, 42, 33, 0.15), 0 2px 4px -1px rgba(60, 42, 33, 0.1);
 }
 ```
 
 ## License
 
-© 2024 Bijay Dhungana. All rights reserved. 
+© 2024 Bijay Dhungana. All rights reserved.
