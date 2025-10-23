@@ -11,13 +11,14 @@ const Experience = () => {
             <div className="experience-header">
               <div className="experience-title-group">
                 <h3>Bachelor of Science in Computer Science</h3>
-                <p className="experience-company">Northern Kentucky University | Highland Heights, Kentucky</p>
+                <p className="experience-company"><a href="https://www.nku.edu/" target="_blank" rel="noopener noreferrer">Northern Kentucky University</a> | Highland Heights, Kentucky</p>
               </div>
               <span className="experience-date">Expected May 2026</span>
             </div>
             <ul className="experience-description">
               <li>CGPA: 3.74/4.00</li>
-              <li>Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering, Machine Learning, Artificial Intelligence</li>
+              <li>Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Testing and Maintainance , Machine Learning, Operating Systems,Theory of Computations,
+                Artificial Intelligence, Windows Adminstration</li>
             </ul>
           </div>
 
