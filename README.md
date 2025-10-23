@@ -2,11 +2,5 @@
 
 Personal portfolio built with React.
 
-**Live:** https://dhunganab2.github.io/portfolio
+Live at :https://dhunganabijay.netlify.app
 
-## Setup
-
-```bash
-npm install
-npm start
-```
