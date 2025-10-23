@@ -1,68 +1,198 @@
 # Bijay Dhungana - Personal Portfolio
 
-A modern, responsive personal portfolio website for Bijay Dhungana, inspired by [Aryan Kafle's portfolio](https://www.aryankafle.com.np).
+A modern, responsive portfolio website built with React showcasing my projects, experience, research, and skills.
 
-## Features
+🌐 **Live Site**: [https://dhunganab2.github.io/portfolio](https://dhunganab2.github.io/portfolio)
 
-- Responsive design that works on desktop, tablet, and mobile devices
-- Clean and modern UI with smooth animations
-- Travis Scott-inspired mocha color theme
-- Sections for About Me, Projects, Skills, Education, and Contact information
-- Semantic HTML5 structure with CSS3 styling
-- Interactive elements with JavaScript
+---
 
-## Structure
+## ✨ Features
 
-The website includes the following sections:
+- 🎨 **Dark/Light Mode Toggle** - Smooth theme switching with persistent preferences
+- 📱 **Fully Responsive** - Works seamlessly on desktop, tablet, and mobile
+- ⚡ **Fast Performance** - Optimized React components
+- 🎯 **Clean UI** - Minimalist design with blue accent colors
+- 🚀 **Auto Deployment** - GitHub Actions CI/CD pipeline
+- 📄 **PDF Downloads** - Integrated CV and research paper downloads
 
-1. **About Me** - Personal information and interests
-2. **Projects** - Showcases academic and personal projects
-3. **Skills** - Displays technical skills with an interactive grid
-4. **Education** - Shows academic background and achievements
-5. **Contact** - Provides ways to get in touch
+---
 
-## Technologies Used
+## 🏗️ Project Structure
 
-- HTML5
-- CSS3 (with CSS variables for theming)
-- JavaScript (ES6+)
-- Font Awesome for icons
-- Google Fonts (Poppins)
+```
+portfolio/
+├── public/
+│   ├── 01_19979_cis-4.pdf           # Research paper
+│   ├── BijayUpdatedCv5.pdf          # CV/Resume
+│   ├── 404.html                      # Custom 404 page
+│   ├── index.html                    # HTML template
+│   └── manifest.json                 # PWA manifest
+│
+├── src/
+│   ├── components/
+│   │   ├── About.js                  # About section with skills
+│   │   ├── Contact.js                # Contact form
+│   │   ├── Experience.js             # Work experience + education
+│   │   ├── Homepage.js               # Hero section
+│   │   ├── navbar.js                 # Navigation bar
+│   │   ├── Projects.js               # Projects showcase
+│   │   ├── Research.js               # Research publications
+│   │   └── ThemeToggle.js            # Dark/Light mode toggle
+│   │
+│   ├── assets/
+│   │   └── images/
+│   │       └── Profile.jpeg          # Profile picture
+│   │
+│   ├── App.js                        # Main app component
+│   ├── index.js                      # React entry point
+│   └── styles.css                    # Global styles
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml                # GitHub Actions deployment
+│
+├── .gitignore                        # Git ignore rules
+├── .nojekyll                         # GitHub Pages config
+├── package.json                      # Dependencies
+└── README.md                         # This file
+```
 
-## Getting Started
+---
 
-1. Clone this repository
-2. Open `index.html` in your web browser
+## 🚀 Getting Started
 
-## Customization
+### Prerequisites
 
-You can easily customize this portfolio by:
+- Node.js (v14 or higher)
+- npm or yarn
 
-1. Replacing placeholder content with your own information
-2. Adding your profile picture (replace the placeholder in the header)
-3. Adding your project details and screenshots
-4. Updating the skills grid with your technical skills
-5. Modifying education details
-6. Updating contact information and social links
+### Installation
 
-## Color Scheme
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/dhunganab2/portfolio.git
+   cd portfolio
+   ```
 
-The website uses a Travis Scott-inspired mocha color scheme with CSS variables that can be easily modified in the `styles.css` file:
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
+3. **Start development server**
+   ```bash
+   npm start
+   ```
+   Opens at [http://localhost:3000](http://localhost:3000)
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🎨 Color Scheme
+
+**Monochrome Gray + Accent Blue** - Ultra minimal design
+
+### Dark Mode (Default)
+- Primary: `#60A5FA` (Soft blue)
+- Secondary: `#93C5FD` (Lighter blue)
+- Background: `#1F1F1F` (Almost black)
+- Text: `#E5E5E5` (Off-white)
+
+### Light Mode
+- Primary: `#2563EB` (Deep blue)
+- Secondary: `#3B82F6` (Medium blue)
+- Background: `#FAFAFA` (Off-white)
+- Text: `#18181B` (Almost black)
+
+---
+
+## 📦 Technologies Used
+
+- **Frontend**: React 18
+- **Styling**: CSS3 with CSS Variables
+- **Fonts**: Manrope, Fira Code (via Google Fonts)
+- **Deployment**: GitHub Pages
+- **CI/CD**: GitHub Actions
+
+---
+
+## 📝 Sections
+
+1. **Home** - Hero section with introduction
+2. **About** - Personal info and technical skills
+3. **Experience** - Education and work experience
+4. **Projects** - Portfolio of projects with live demos
+5. **Research** - Academic publications
+6. **Contact** - Get in touch form with social links
+
+---
+
+## 🔧 Customization
+
+### Update Personal Information
+
+Edit the component files in `src/components/`:
+- `About.js` - Bio and skills
+- `Experience.js` - Education and work history
+- `Projects.js` - Project details
+- `Research.js` - Publications
+- `Contact.js` - Contact info
+
+### Change Colors
+
+Modify CSS variables in `src/styles.css`:
 ```css
 :root {
-    --primary-color: #6F4E37; /* Mocha brown */
-    --secondary-color: #3C2A21; /* Dark brown */
-    --background-color: #FFF8E1; /* Light cream */
-    --card-background: #ffffff;
-    --text-color: #2C1D14; /* Deep brown */
-    --text-light: #725B4D; /* Medium brown */
-    --border-color: #D4C3A9; /* Beige */
-    --success-color: #4E6C50; /* Muted green */
-    --shadow: 0 4px 6px -1px rgba(60, 42, 33, 0.15), 0 2px 4px -1px rgba(60, 42, 33, 0.1);
+  --primary-color: #yourcolor;
+  --secondary-color: #yourcolor;
+  /* ... more variables */
 }
 ```
 
-## License
+### Replace Profile Picture
 
-© 2024 Bijay Dhungana. All rights reserved.
+Replace `src/assets/images/Profile.jpeg` with your photo
+
+### Update CV/Resume
+
+Replace `public/BijayUpdatedCv5.pdf` with your resume
+
+---
+
+## 🚀 Deployment
+
+This project automatically deploys to GitHub Pages using GitHub Actions.
+
+### Automatic Deployment
+1. Push to `main` branch
+2. GitHub Actions builds the project
+3. Deploys to `gh-pages` branch
+4. Live at: `https://dhunganab2.github.io/portfolio`
+
+### Manual Deployment
+```bash
+npm run build
+# Deploy the build folder to your hosting service
+```
+
+---
+
+## 📄 License
+
+© 2024-2025 Bijay Dhungana. All rights reserved.
+
+---
+
+## 🤝 Connect
+
+- **GitHub**: [@dhunganab2](https://github.com/dhunganab2)
+- **LinkedIn**: [bijay-dhungana](https://linkedin.com/in/bijay-dhungana)
+- **Email**: dhunganab2@nku.edu
+
+---
+
+Made with ❤️ using React
