@@ -2,22 +2,18 @@ import React from 'react';
 
 const projectsData = [
   { 
-    title: 'Code Editor App', 
-    desc: 'A modern code editor with syntax highlighting, auto-completion, and real-time collaboration. Built with React and Node.js, featuring a sleek dark mode interface.', 
-    img: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-    tech: ['React', 'Node.js', 'Socket.io', 'CodeMirror'] 
+    title: 'AI powered Expense Tracker',
+    date: 'Jan 2025',
+    desc: 'Personal finance web application with Firebase Authentication, OpenAI API integration for automatic expense categorization and budgeting recommendations. Features interactive data visualizations using Recharts/D3.js and responsive mobile-first design with CI/CD pipeline.', 
+    img: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+    tech: ['Python', 'React', 'Firebase', 'OpenAI API', 'Recharts', 'D3.js'] 
   },
   { 
-    title: 'Tech Blog Platform', 
-    desc: 'A minimalist blogging platform for developers with markdown support, code snippets, and a clean reading experience. Features user authentication and commenting system.', 
-    img: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80',
-    tech: ['TypeScript', 'React', 'MongoDB', 'Express'] 
-  },
-  { 
-    title: 'Weather Dashboard', 
-    desc: 'A sleek weather application that provides real-time weather data and forecasts. Features dark mode UI, interactive maps, and hourly predictions using advanced APIs.', 
-    img: 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1551&q=80',
-    tech: ['JavaScript', 'React', 'Weather API', 'Chart.js'] 
+    title: 'Wanderer - Travel Companion Matching App',
+    date: 'June 2025',
+    desc: 'AI-driven travel companion platform with matching algorithms, automated trip planning using multi-agent AI system, and real-time messaging. Built with React/TypeScript frontend, Node.js/Express backend, Firebase infrastructure, and RESTful APIs for user profiles and map integration.', 
+    img: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+    tech: ['React', 'TypeScript', 'Firebase', 'Node.js', 'Express', 'AI'] 
   },
 ];
 
@@ -30,7 +26,10 @@ const Projects = () => {
           <div className="project-card" key={index}>
             <img src={project.img} alt={project.title} />
             <div className="project-info">
-              <h3>{project.title}</h3>
+              <div className="project-header">
+                <h3>{project.title}</h3>
+                <span className="project-date">{project.date}</span>
+              </div>
               <p>{project.desc}</p>
               <div className="project-tech">
                 {project.tech.map((tech, i) => (

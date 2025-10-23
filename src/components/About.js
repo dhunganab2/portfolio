@@ -29,13 +29,41 @@ const About = () => {
             </p>
             <div className="skills-container">
               <h4>Technical Skills</h4>
-              <div className="skills-list">
-                <span className="skill-tag">C++</span>
-                <span className="skill-tag">Python</span>
-                <span className="skill-tag">Java</span>
-                <span className="skill-tag">JavaScript</span>
-                <span className="skill-tag">React</span>
-                <span className="skill-tag">MySQL</span>
+              
+              <div className="skills-category">
+                <h5 className="skills-category-title">Languages and Databases:</h5>
+                <div className="skills-list">
+                  <span className="skill-tag">Python</span>
+                  <span className="skill-tag">Java</span>
+                  <span className="skill-tag">C++</span>
+                  <span className="skill-tag">JavaScript</span>
+                  <span className="skill-tag">SQL</span>
+                  <span className="skill-tag">HTML/CSS</span>
+                  <span className="skill-tag">PostgreSQL</span>
+                  <span className="skill-tag">MySQL</span>
+                </div>
+              </div>
+
+              <div className="skills-category">
+                <h5 className="skills-category-title">Frameworks Libraries:</h5>
+                <div className="skills-list">
+                  <span className="skill-tag">Spring Boot</span>
+                  <span className="skill-tag">Django</span>
+                  <span className="skill-tag">Flask</span>
+                  <span className="skill-tag">React.js</span>
+                  <span className="skill-tag">Node.js</span>
+                  <span className="skill-tag">Pandas</span>
+                  <span className="skill-tag">NumPy</span>
+                </div>
+              </div>
+
+              <div className="skills-category">
+                <h5 className="skills-category-title">Cloud Deployment:</h5>
+                <div className="skills-list">
+                  <span className="skill-tag">AWS</span>
+                  <span className="skill-tag">Azure</span>
+                  <span className="skill-tag">Firebase</span>
+                </div>
               </div>
             </div>
           </div>
