@@ -7,7 +7,7 @@ const Research = () => {
       <div className="research-grid">
         <div className="research-card">
           <h4>Analysis of the Content of ChatGPT's Memory: Types of Information, Security Implications, and User Perception</h4>
-          <p className="research-authors">Authors: Bijay Dhungana, et al.</p>
+    
           <p className="research-venue">Conference: 2025 48th MIPRO ICT and Electronics Convention (MIPRO) | Croatia</p>
           <p className="research-description">
             This research analyzes the content stored in ChatGPT's memory, examining the types of information retained, 
