@@ -795,6 +795,9 @@ code, pre {
   font-size: 0.9rem;
   font-weight: 600;
   text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 
 .project-btn:hover {

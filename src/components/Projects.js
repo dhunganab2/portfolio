@@ -10,7 +10,8 @@ const projectsData = [
     desc: 'Personal finance web application with Firebase Authentication, OpenAI API integration for automatic expense categorization and budgeting recommendations. Features interactive data visualizations using Recharts/D3.js and responsive mobile-first design with CI/CD pipeline.', 
     img: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
     tech: ['Python', 'React', 'Firebase', 'OpenAI API', 'Recharts', 'D3.js'],
-    demoImages: []
+    demoImages: [],
+    githubUrl: ''
   },
   { 
     title: 'Wanderer - Travel Companion Matching App',
@@ -18,7 +19,8 @@ const projectsData = [
     desc: 'AI-driven travel companion platform with matching algorithms, automated trip planning using multi-agent AI system, and real-time messaging. Built with React/TypeScript frontend, Node.js/Express backend, Firebase infrastructure, and RESTful APIs for user profiles and map integration.', 
     img: wanderImage,
     tech: ['React', 'TypeScript', 'Firebase', 'Node.js', 'Express', 'AI'],
-    demoImages: [demoImage1, demoImage2]
+    demoImages: [demoImage1, demoImage2],
+    githubUrl: 'https://github.com/dhunganab2/Wanderer'
   },
 ];
 
@@ -79,7 +81,18 @@ const Projects = () => {
                 >
                   View Demo
                 </button>
-                <button className="project-btn">GitHub</button>
+                {project.githubUrl ? (
+                  <a 
+                    href={project.githubUrl} 
+                    className="project-btn" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                ) : (
+                  <button className="project-btn" disabled>GitHub</button>
+                )}
               </div>
             </div>
           </div>
