@@ -19,15 +19,15 @@ const Research = () => {
           </div>
         </div>
 
-        <div className="research-card working">
+        <div className="research-card">
           <h4>Evaluating Output Novelty in Iterative Prompting in Educational Content Generation</h4>
           <p className="research-venue">Conference: 2025 17th International Conference on Education Technology and Computers (ICETC)</p>
           <p className="research-description">
-            To appear in Proceedings of the 2025 17th International Conference on Education Technology and Computers (ICETC)
+            This research evaluates the novelty of outputs generated through iterative prompting techniques in educational content creation, examining how successive prompt refinements affect the originality and diversity of AI-generated educational materials.
           </p>
           <div className="research-links">
-            <a href="https://www.researchgate.net/profile/Bijay-Dhungana-3?ev=hdr_xprf" className="research-btn" target="_blank" rel="noopener noreferrer">ResearchGate</a>
-            <span className="research-btn publishing-soon">Publishing Soon</span>
+            <a href="https://www.researchgate.net/publication/396923717_Evaluating_Output_Novelty_in_Iterative_Prompting_in_Educational_Content_Generation" className="research-btn" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+            <a href="/ICETC_2025_Paper.pdf" className="research-btn" target="_blank" rel="noopener noreferrer">View Paper</a>
           </div>
         </div>
       </div>
