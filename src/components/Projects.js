@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import wanderImage from '../assets/Webapp.png';
 import demoImage1 from '../assets/a.png';
 import demoImage2 from '../assets/images/b.png';
+import expenseTrackerImage from '../assets/1.png';
 
 const projectsData = [
   { 
     title: 'AI powered Expense Tracker',
     date: 'Jan 2025',
     desc: 'Personal finance web application with Firebase Authentication, OpenAI API integration for automatic expense categorization and budgeting recommendations. Features interactive data visualizations using Recharts/D3.js and responsive mobile-first design with CI/CD pipeline.', 
-    img: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+    img: expenseTrackerImage,
     tech: ['Python', 'React', 'Firebase', 'OpenAI API', 'Recharts', 'D3.js'],
     demoImages: [],
     githubUrl: ''
