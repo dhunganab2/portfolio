@@ -3,6 +3,8 @@ import wanderImage from '../assets/Webapp.png';
 import demoImage1 from '../assets/a.png';
 import demoImage2 from '../assets/images/b.png';
 import expenseTrackerImage from '../assets/1.png';
+import expenseDemo1 from '../assets/2.png';
+import expenseDemo2 from '../assets/3.png';
 
 const projectsData = [
   { 
@@ -11,7 +13,7 @@ const projectsData = [
     desc: 'Personal finance web application with Firebase Authentication, OpenAI API integration for automatic expense categorization and budgeting recommendations. Features interactive data visualizations using Recharts/D3.js and responsive mobile-first design with CI/CD pipeline.', 
     img: expenseTrackerImage,
     tech: ['Python', 'React', 'Firebase', 'OpenAI API', 'Recharts', 'D3.js'],
-    demoImages: [],
+    demoImages: [expenseDemo1, expenseDemo2],
     githubUrl: ''
   },
   { 
