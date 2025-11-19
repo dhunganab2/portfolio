@@ -30,6 +30,18 @@ const Research = () => {
             <a href="/ICETC_2025_Paper.pdf" className="research-btn" target="_blank" rel="noopener noreferrer">View Paper</a>
           </div>
         </div>
+
+        <div className="research-card">
+          <h4>Benchmarking LLMs for Content Expansion: Measuring Novelty in Iterative Course Outline Generation</h4>
+          <p className="research-venue">Conference: 2025 Information Systems and Computing Academic Professionals (ISCAP)</p>
+          <p className="research-description">
+            This research benchmarks various Large Language Models (LLMs) for educational content expansion, specifically measuring novelty and effectiveness in iterative course outline generation. The study evaluates how different LLMs perform in generating diverse and novel educational content through successive iterations.
+          </p>
+          <div className="research-links">
+            <a href="https://www.researchgate.net/publication/397504945_Benchmarking_LLMs_for_Content_Expansion_Measuring_Novelty_in_Iterative_Course_Outline_Generation" className="research-btn" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+            <a href="/ISCAP.pdf" className="research-btn" target="_blank" rel="noopener noreferrer">View Paper</a>
+          </div>
+        </div>
       </div>
     </div>
   );
