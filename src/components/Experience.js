@@ -16,7 +16,7 @@ const Experience = () => {
               <span className="experience-date">Expected May 2026</span>
             </div>
             <ul className="experience-description">
-              <li>CGPA: 3.74/4.00</li>
+              <li>CGPA: 3.77/4.00</li>
               <li>Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Testing and Maintainance , Machine Learning, Operating Systems,Theory of Computations,
                 Artificial Intelligence, Windows Adminstration</li>
             </ul>
