@@ -309,7 +309,7 @@ main {
 }
 
 .profile-image {
-  width: min(220px, 75%);
+  width: min(260px, 82%);
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 50%;

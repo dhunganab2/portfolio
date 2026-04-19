@@ -19,6 +19,9 @@ const Homepage = () => {
               <a href="https://github.com/dhunganab2" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
               </a>
+              <a href="https://www.researchgate.net/profile/Bijay-Dhungana-3?ev=hdr_xprf" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/researchgate.svg" alt="ResearchGate" />
+              </a>
               <a href="mailto:dhunganabijay85@gmail.com" className="social-icon">
                 <img src="https://cdn-icons-png.flaticon.com/512/552/552486.png" alt="Email" />
               </a>
