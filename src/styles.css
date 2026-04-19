@@ -655,6 +655,29 @@ main {
 
 /* Responsive */
 @media (max-width: 900px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+  }
+
+  .about-image-container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .about-text {
+    text-align: left;
+  }
+
+  .section-title {
+    margin-bottom: 1.3rem;
+  }
+
+  .projects-grid,
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
   .home-split {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -666,18 +689,31 @@ main {
 }
 
 @media (max-width: 768px) {
+  main {
+    margin-top: 64px;
+  }
+
+  #about,
+  #experience,
+  #projects,
+  #research {
+    scroll-margin-top: 78px;
+  }
+
   .hamburger {
     display: flex;
   }
 
   .nav-menu {
+    min-height: 64px;
     justify-content: flex-start;
     padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .nav-links {
     position: fixed;
-    top: 70px;
+    top: 64px;
     left: -100%;
     width: 100%;
     flex-direction: column;
@@ -698,6 +734,45 @@ main {
     text-align: left;
   }
 
+  .homepage {
+    padding: 2rem 0.75rem;
+  }
+
+  .about-container,
+  .experience-container,
+  .projects-container,
+  .research-container {
+    width: 94vw;
+  }
+
+  .profile-image {
+    width: min(230px, 68vw);
+  }
+
+  .social-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .social-icon img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .experience-item,
+  .project-info,
+  .research-card {
+    padding: 0.9rem;
+  }
+
+  .project-card img {
+    height: 170px;
+  }
+
+  .section-title {
+    font-size: clamp(1.55rem, 6vw, 1.9rem);
+  }
+
   .experience-header,
   .project-header {
     flex-direction: column;
@@ -710,5 +785,30 @@ main {
 
   .gallery-controls {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .homepage {
+    padding: 1.5rem 0.6rem;
+  }
+
+  .about-text p,
+  .project-card p,
+  .research-description,
+  .experience-description li {
+    font-size: 0.92rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .project-btn,
+  .research-btn,
+  .gallery-btn {
+    width: 100%;
+    text-align: center;
   }
 }
