@@ -16,6 +16,9 @@ function App() {
         <Projects />
         <Research />
       </main>
+      <footer className="site-footer">
+        Copyright © 2026 Bijay Dhungana. All rights reserved.
+      </footer>
     </div>
   );
 }

@@ -1,5 +1,15 @@
 import React from 'react';
 
+const booksRead2026 = [
+  { title: 'Radha', author: 'Krishna Dharabasi', cover: 'https://shopratnaonline.com/wp-content/uploads/2023/04/Radha.jpeg' },
+  { title: 'Ek sarko maya', author: 'GS Poudel', cover: 'https://shopratnaonline.com/wp-content/uploads/2021/09/Ek-Sarko-Maya.webp' },
+  { title: 'Pagal basti', author: 'Saru Bhakta', cover: 'https://shopratnaonline.com/wp-content/uploads/2021/07/Pagal-Basti.jpg' },
+  { title: 'Pahelpur', author: 'GS Poudel', cover: 'https://shopratnaonline.com/wp-content/uploads/2021/09/Pahelpur.webp' },
+  { title: 'Palpasa Cafe', author: 'Narayan Wagle', cover: 'https://shopratnaonline.com/wp-content/uploads/2021/06/Palpasa-Cafe.jpeg' },
+  { title: 'Sirish Ko phool', author: 'Parijat', cover: 'https://shopratnaonline.com/wp-content/uploads/2021/06/Shireesh-ko-Phool.jpeg' },
+  { title: 'Modiaain', author: 'BP Koirala', cover: 'https://biblionepal.com/cdn/shop/products/modiaain-biblionepal.jpg?v=1664277263' },
+];
+
 const Research = () => {
   return (
     <section id="research" className="research-section">
@@ -42,6 +52,28 @@ const Research = () => {
               <a href="https://www.researchgate.net/publication/397504945_Benchmarking_LLMs_for_Content_Expansion_Measuring_Novelty_in_Iterative_Course_Outline_Generation" className="research-btn" target="_blank" rel="noopener noreferrer">ResearchGate</a>
               <a href="/ISCAP.pdf" className="research-btn" target="_blank" rel="noopener noreferrer">View Paper</a>
             </div>
+          </div>
+        </div>
+
+        <div className="reading-list-section">
+          <h3 className="reading-list-title">Books I read in 2026</h3>
+          <div className="reading-books-grid">
+            {booksRead2026.map((book, index) => (
+              <article className="reading-book-card" key={book.title}>
+                <img
+                  src={book.cover}
+                  alt={`${book.title} cover`}
+                  className="reading-book-cover"
+                  loading="lazy"
+                  onError={(e) => {
+                    e.currentTarget.src = 'https://cdn-icons-png.flaticon.com/512/29/29302.png';
+                  }}
+                />
+                <p className="reading-book-rank">{index + 1}</p>
+                <h4 className="book-name">{book.title}</h4>
+                <p className="book-author">{book.author}</p>
+              </article>
+            ))}
           </div>
         </div>
       </div>
