@@ -60,48 +60,50 @@ const Projects = () => {
 
   return (
     <section id="projects" className="projects-section">
-      <h2 className="section-title">My Projects</h2>
-      <div className="projects-grid">
-        {projectsData.map((project, index) => (
-          <div className="project-card" key={index}>
-            <img src={project.img} alt={project.title} />
-            <div className="project-info">
-              <div className="project-header">
-                <h3>{project.title}</h3>
-                <span className="project-date">{project.date}</span>
-              </div>
-              <p>{project.desc}</p>
-              <div className="project-tech">
-                {project.tech.map((tech, i) => (
-                  <span key={i} className="tech-tag">{tech}</span>
-                ))}
-              </div>
-              <div className="project-links">
-                <button 
-                  className="project-btn" 
-                  onClick={() => openDemo(project)}
-                  disabled={!project.demoImages || project.demoImages.length === 0}
-                >
-                  View Demo
-                </button>
-                {project.githubUrl ? (
-                  <a 
-                    href={project.githubUrl} 
+      <div className="projects-container">
+        <h2 className="section-title">Project</h2>
+        <div className="projects-grid">
+          {projectsData.map((project, index) => (
+            <div className="project-card" key={index}>
+              <img src={project.img} alt={project.title} />
+              <div className="project-info">
+                <div className="project-header">
+                  <h3>{project.title}</h3>
+                  <span className="project-date">{project.date}</span>
+                </div>
+                <p>{project.desc}</p>
+                <div className="project-tech">
+                  {project.tech.map((tech, i) => (
+                    <span key={i} className="tech-tag">{tech}</span>
+                  ))}
+                </div>
+                <div className="project-links">
+                  <button 
                     className="project-btn" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
+                    onClick={() => openDemo(project)}
+                    disabled={!project.demoImages || project.demoImages.length === 0}
                   >
-                    GitHub
-                  </a>
-                ) : (
-                  <button className="project-btn" disabled>GitHub</button>
-                )}
+                    View Demo
+                  </button>
+                  {project.githubUrl ? (
+                    <a 
+                      href={project.githubUrl} 
+                      className="project-btn" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  ) : (
+                    <button className="project-btn" disabled>GitHub</button>
+                  )}
+                </div>
               </div>
             </div>
+          ))}
           </div>
-        ))}
-      </div>
-
+        </div>
+      
       {showModal && selectedProject && (
         <div className="demo-modal" onClick={closeModal}>
           <div className="demo-modal-content" onClick={(e) => e.stopPropagation()}>

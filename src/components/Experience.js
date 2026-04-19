@@ -5,23 +5,24 @@ const Experience = () => {
     <section id="experience" className="experience-section">
       <div className="experience-container">
         <h2 className="section-title">Experience</h2>
-        
-        <div className="experience-timeline">
-          <div className="experience-item">
-            <div className="experience-header">
-              <div className="experience-title-group">
-                <h3>Bachelor of Science in Computer Science</h3>
-                <p className="experience-company"><a href="https://www.nku.edu/" target="_blank" rel="noopener noreferrer">Northern Kentucky University</a> | Highland Heights, Kentucky</p>
-              </div>
-              <span className="experience-date">Expected May 2026</span>
+        <div className="experience-item">
+          <h3 className="experience-subsection-title">Education</h3>
+          <div className="experience-header">
+            <div className="experience-title-group">
+              <h3>Bachelor of Science in Computer Science</h3>
+              <p className="experience-company"><a href="https://www.nku.edu/" target="_blank" rel="noopener noreferrer">Northern Kentucky University</a> | Highland Heights, Kentucky</p>
             </div>
-            <ul className="experience-description">
-              <li>CGPA: 3.77/4.00</li>
-              <li>Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Testing and Maintainance , Machine Learning, Operating Systems,Theory of Computations,
-                Artificial Intelligence, Windows Adminstration</li>
-            </ul>
+            <span className="experience-date">Expected May 2026</span>
           </div>
+          <ul className="experience-description">
+            <li>CGPA: 3.77/4.00</li>
+            <li>Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Testing and Maintainance , Machine Learning, Operating Systems,Theory of Computations,
+              Artificial Intelligence, Windows Adminstration</li>
+          </ul>
+        </div>
 
+        <h3 className="experience-subsection-title">Professional Experience</h3>
+        <div className="experience-timeline">
           <div className="experience-item">
             <div className="experience-header">
               <div className="experience-title-group">

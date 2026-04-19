@@ -14,6 +14,17 @@ const About = () => {
               alt="Bijay Dhungana"
               className="profile-image" 
             />
+            <div className="about-contact-icons">
+              <a href="https://www.linkedin.com/in/bijaydhungana07/" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+              </a>
+              <a href="https://github.com/dhunganab2" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+              </a>
+              <a href="mailto:dhunganabijay85@gmail.com" className="social-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/552/552486.png" alt="Email" />
+              </a>
+            </div>
           </div>
           <div className="about-text">
             <h3 className="about-subtitle">Full Stack Developer</h3>
