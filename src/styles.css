@@ -567,21 +567,26 @@ main {
 }
 
 .reading-books-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
   gap: 0.9rem;
+  padding-bottom: 0.2rem;
 }
 
 .reading-book-card {
+  flex: 0 0 clamp(132px, 14vw, 165px);
+  scroll-snap-align: start;
   border: 1px solid var(--line);
   border-radius: 12px;
   background: var(--surface-soft);
-  padding: 0.7rem;
+  padding: 0.65rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.3rem;
-  animation: readingCardSlideIn 0.6s ease both;
+  gap: 0.25rem;
+  animation: readingCardSlideIn 0.45s ease both;
   transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
 }
 
@@ -617,7 +622,7 @@ main {
 
 .reading-book-cover {
   width: 100%;
-  height: 190px;
+  height: 170px;
   object-fit: cover;
   border-radius: 8px;
   border: 1px solid var(--line);
@@ -649,7 +654,7 @@ main {
 @keyframes readingCardSlideIn {
   0% {
     opacity: 0;
-    transform: translateX(10px);
+    transform: translateX(8px);
   }
   100% {
     opacity: 1;
