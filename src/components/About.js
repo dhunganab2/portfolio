@@ -36,7 +36,7 @@ const About = () => {
             </p>
             <p>
               Besides this, I am a huge fan of Hip-hop. Currently my favorite artists are The Weeknd
-              ,Travis Scott, and Playboi Carti. I also
+              ,Travis Scott,Drake and Playboi Carti. I also
               love exploring new places and trying new cuisine.
             </p>
             <div className="skills-container">
