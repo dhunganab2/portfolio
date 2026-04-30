@@ -1,6 +1,6 @@
 # Portfolio
 
-Personal portfolio built with React.
 
-Live at :https://dhunganabijay.netlify.app
+
+Live at :https://dhunganabijay.com.np
 
