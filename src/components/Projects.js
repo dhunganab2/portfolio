@@ -5,16 +5,19 @@ import demoImage2 from '../assets/images/b.png';
 import expenseTrackerImage from '../assets/1.png';
 import expenseDemo1 from '../assets/2.png';
 import expenseDemo2 from '../assets/3.png';
+import federatedDemo1 from '../assets/4.png';
+import federatedDemo2 from '../assets/5.png';
+import federatedDemo3 from '../assets/6.png';
 
 const projectsData = [
-  { 
-    title: 'AI powered Expense Tracker',
-    date: 'Jan 2025',
-    desc: 'Personal finance web application with Firebase Authentication, OpenAI API integration for automatic expense categorization and budgeting recommendations. Features interactive data visualizations using Recharts/D3.js and responsive mobile-first design with CI/CD pipeline.', 
-    img: expenseTrackerImage,
-    tech: ['Python', 'React', 'Firebase', 'OpenAI API', 'Recharts', 'D3.js'],
-    demoImages: [expenseDemo1, expenseDemo2],
-    githubUrl: ''
+  {
+    title: 'AI-Powered Federated E-Commerce Recommender',
+    date: 'March 2026',
+    desc: 'Privacy-preserving e-commerce recommender built with Flower + FedAdam across 10 simulated silos, reaching 91% HitRate@10. Includes a PySpark Medallion Pipeline for 16M+ Amazon reviews and a FastAPI + Next.js platform for real-time personalized recommendations.',
+    img: federatedDemo1,
+    tech: ['Python', 'PyTorch', 'FastAPI', 'Next.js', 'PySpark', 'Flower', 'FedAdam'],
+    demoImages: [federatedDemo1, federatedDemo2, federatedDemo3],
+    githubUrl: 'https://github.com/dhunganab2/federated-marketplace-recommender'
   },
   { 
     title: 'Wanderer - Travel Companion Matching App',
@@ -24,6 +27,15 @@ const projectsData = [
     tech: ['React', 'TypeScript', 'Firebase', 'Node.js', 'Express', 'AI'],
     demoImages: [demoImage1, demoImage2],
     githubUrl: 'https://github.com/dhunganab2/Wanderer'
+  },
+  { 
+    title: 'AI powered Expense Tracker',
+    date: 'Jan 2025',
+    desc: 'Personal finance web application with Firebase Authentication, OpenAI API integration for automatic expense categorization and budgeting recommendations. Features interactive data visualizations using Recharts/D3.js and responsive mobile-first design with CI/CD pipeline.', 
+    img: expenseTrackerImage,
+    tech: ['Python', 'React', 'Firebase', 'OpenAI API', 'Recharts', 'D3.js'],
+    demoImages: [expenseDemo1, expenseDemo2],
+    githubUrl: ''
   },
 ];
 
