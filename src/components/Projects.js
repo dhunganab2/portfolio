@@ -15,7 +15,7 @@ const projectsData = [
     date: 'March 2026',
     desc: 'Privacy-preserving e-commerce recommender built with Flower + FedAdam across 10 simulated silos, reaching 91% HitRate@10. Includes a PySpark Medallion Pipeline for 16M+ Amazon reviews and a FastAPI + Next.js platform for real-time personalized recommendations.',
     img: federatedDemo1,
-    tech: ['Python', 'PyTorch', 'FastAPI', 'Next.js', 'PySpark', 'Flower', 'FedAdam'],
+    tech: ['Python', 'PyTorch', 'FastAPI', 'Next.js', 'PySpark'],
     demoImages: [federatedDemo1, federatedDemo2, federatedDemo3],
     githubUrl: 'https://github.com/dhunganab2/federated-marketplace-recommender'
   },
