@@ -345,6 +345,7 @@ main {
   width: min(300px, 92%);
   aspect-ratio: 1;
   object-fit: cover;
+  object-position: center 15%;
   border-radius: 50%;
   border: 2px solid #000000;
   box-shadow: 0 0 0 6px var(--surface), var(--shadow);
