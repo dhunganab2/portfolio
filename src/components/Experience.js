@@ -12,10 +12,10 @@ const Experience = () => {
               <h3>Bachelor of Science in Computer Science</h3>
               <p className="experience-company"><a href="https://www.nku.edu/" target="_blank" rel="noopener noreferrer">Northern Kentucky University</a> | Highland Heights, Kentucky</p>
             </div>
-            <span className="experience-date">Expected May 2026</span>
+            <span className="experience-date">May 2026</span>
           </div>
           <ul className="experience-description">
-            <li>CGPA: 3.77/4.00</li>
+            <li>CGPA: 3.80/4.00</li>
             <li>Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Testing and Maintainance , Machine Learning, Operating Systems,Theory of Computations,
               Artificial Intelligence, Windows Adminstration</li>
           </ul>
@@ -47,7 +47,8 @@ const Experience = () => {
               <span className="experience-date">Oct 2024 – Present</span>
             </div>
             <ul className="experience-description">
-              <li>Co-authored a peer-reviewed paper titled "Evaluating Output Novelty in Iterative Prompting in Educational Content Generation", accepted at ICETC 2025 — proposing a novelty metric that automated 90.52% of classification and reduced review time.</li>
+              <li>Co-authored and published three peer-reviewed conference papers on LLM evaluation and AI security across ICETC
+              2025 and ISCAP 2025, contributing to research on iterative prompting, novelty detection, and cybersecurity awareness</li>
               <li>Designed and analyzed experiments using five LLMs (ChatGPT 4o, Claude 3.7, Gemini 2.5 Flash, DeepSeek v3, and r1), benchmarking model efficiency and improving course outline generation accuracy by 35%.</li>
               <li>Implemented and analyzed lexical and semantic similarity methods Jaccard, CosinE, BERT embeddings, and Jaro-Winkler distance to evaluate novelty in LLM-generated course outlines, improving classification accuracy by 35%.</li>
             </ul>
